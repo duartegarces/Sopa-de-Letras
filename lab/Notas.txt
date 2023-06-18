@@ -1,0 +1,39 @@
+criar interface do jogo com menu e possibilidade de fazer novo jogo
+fazer as classes que faltam e se possivel otimizar outras
+
+Unhandled exception thrown: read access violation.
+**this** was 0xFFFFFFFFFFFFFFFF. occurred
+
+Unhandled exception thrown: read access violation.
+this was 0xFFFFFFFFFFFFFFFF.
+
+
+implementar cronometro
+implementar o free mem
+implementar o limpar array_var:
+	word_discovered
+	dimx
+	dimy
+	countpalavras
+
+
+	 char key;
+char msg[20];
+printf("\n\n\t\t     press escape to quit\n\n");
+do {
+  key = _getch();
+
+  if (key == 27) {
+      printf("Key: ESCAPE");
+      putchar('\n');
+  }
+  else {
+      printf("Key: %c", key);
+      putchar('\n');
+      Sleep(5000);
+  }
+
+} while (key != 27);
+
+
+
